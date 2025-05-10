@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resume – Bulldog Detailing</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    :root {
+      --zg-navy: #212529;
+      --zg-red:  #e9ecef;
+    }
+
+    /* navbar & footer background */
+    .navbar,
+    footer {
+      background-color: var(--zg-navy) !important;
+    }
+
+    /* default link color + smooth transition */
+    .nav-link,
+    .navbar-brand {
+      color: #ffffffab !important;
+      transition: color 0.2s ease-in-out;
+    }
+
+    /* hover state */
+    .nav-link:hover,
+    .navbar-brand:hover {
+      color: var(--zg-red) !important;
+    }
+
+    /* active tab stays highlighted */
+    .nav-link.active {
+      color: var(--zg-red) !important;
+    }
+
+    /* headings */
+    h1, h2 {
+      color: var(--zg-navy);
+    }
+
+    .section-title {
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Bulldog Detailing</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarNav" aria-controls="navbarNav"
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="resume.html">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="fromscratch.html">From Scratch</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Resume Content -->
+  <div class="container my-5">
+    <h1>Tyler &amp; Jackson’s Resume</h1>
+
+    <section class="section-title">
+      <h2>Education</h2>
+      <ul>
+        <li>Gonzaga University — Bachelor of Business Administration (Class of 2027)</li>
+      </ul>
+    </section>
+
+    <section class="section-title">
+      <h2>Work Experience</h2>
+      <ul>
+        <li>
+          <strong>Co-Founder, Bulldog Detailing</strong> (2024–Present)
+          <ul>
+            <li>Launched and manage a mobile car detailing business.</li>
+            <li>Handle client consultations, service delivery, and marketing.</li>
+            <li>Developed a loyal customer base through exceptional service.</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section-title">
+      <h2>Skills</h2>
+      <ul>
+        <li>Automotive Detailing &amp; Maintenance</li>
+        <li>Customer Service</li>
+        <li>Team Collaboration</li>
+        <li>Time Management</li>
+        <li>Social Media Marketing</li>
+      </ul>
+    </section>
+
+    <section class="section-title">
+      <h2>Honors &amp; Activities</h2>
+      <ul>
+        <li>Dean’s List, Fall 2023–Current</li>
+        <li>Member, Gonzaga Outdoors Club</li>
+        <li>Athlete, Gonzaga Men's Club Rugby</li>
+      </ul>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer class="py-4">
+    <div class="container text-center">
+      <p class="m-0 text-white">&copy; 2025 Bulldog Detailing</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
